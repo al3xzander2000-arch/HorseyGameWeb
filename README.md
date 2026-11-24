@@ -5,7 +5,8 @@ Web port of Horsey Game.
 ## Hosting
 
 The GitHub Actions workflow deploys the static site to GitHub Pages when changes
-are pushed to `main`. For the first deployment, set **Settings > Pages > Build
+are pushed to `main`. The first workflow run attempts to enable Pages
+automatically. If repository policy blocks that, set **Settings > Pages > Build
 and deployment > Source** to **GitHub Actions**. The resulting site is served
 over HTTPS, so the browser can load the WebAssembly files.
 
