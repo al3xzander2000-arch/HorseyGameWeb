@@ -28,8 +28,6 @@ jobs:
           mkdir _site
           cp -R game gfx_worker.js horseygame.js horseygame.wasm horseygame_gfx.js horseygame_gfx.wasm image.bin index.html manifest.json _site/
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
